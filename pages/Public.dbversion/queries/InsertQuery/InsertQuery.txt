@@ -1,0 +1,8 @@
+INSERT INTO public."dbversion" (
+	"entity",
+	"entity",
+	"sql_dump_version")
+VALUES (
+	'{{insert_form.formData.entity}}',
+	'{{insert_form.formData.entity}}',
+	'{{insert_form.formData.sql_dump_version}}');

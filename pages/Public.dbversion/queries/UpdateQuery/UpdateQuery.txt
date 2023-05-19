@@ -1,0 +1,4 @@
+UPDATE public."dbversion" SET
+		"entity" = '{{update_form.fieldState.entity.isVisible ? update_form.formData.entity : update_form.sourceData.entity}}',
+		"sql_dump_version" = '{{update_form.fieldState.sql_dump_version.isVisible ? update_form.formData.sql_dump_version : update_form.sourceData.sql_dump_version}}'
+WHERE "entity" = {{data_table.selectedRow.entity}};

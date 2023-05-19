@@ -3,6 +3,10 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Public.dbversion",
+      "isDefault": false
     }
   ],
   "viewMode": false,

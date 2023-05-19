@@ -1,0 +1,2 @@
+DELETE FROM public."dbversion"
+  WHERE "entity" = {{data_table.triggeredRow.entity}};
